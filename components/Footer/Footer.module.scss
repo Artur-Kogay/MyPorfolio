@@ -1,7 +1,7 @@
 .global {
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  margin-top: 70px;
   .container {
     width: 85%;
     margin: 0 auto;
@@ -102,6 +102,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
+        padding-bottom: 70px;
       }
 
       .the_end {

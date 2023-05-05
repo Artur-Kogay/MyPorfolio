@@ -24,7 +24,7 @@ const Testimony = () => {
             visible: { scale: 1 },
           }}
         >
-          💬 Recomendações
+          💬Технологии
         </motion.button>
         <div className={s.content}>
           <motion.h1

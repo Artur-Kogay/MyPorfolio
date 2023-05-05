@@ -25,7 +25,7 @@ const Stack = () => {
               visible: { scale: 1 },
             }}
           >
-            🧑‍💻 Skills · Experiências
+            🧑‍💻 Навыки
           </motion.button>
           <motion.h1
             initial="hidden"
