@@ -3,6 +3,7 @@ import s from "./Footer.module.scss";
 import Footer_end from "../Footer_end/Footer_end";
 import { motion, useAnimationFrame } from "framer-motion";
 import arrowUp from '../../public/ArrowUp.png'
+import Image from "next/image";
 
 const Footer = () => {
   const ref = useRef(null);
@@ -97,7 +98,7 @@ const Footer = () => {
               className={s.footer_l}
               href="#"
             >
-              Вернуться в начало <img src={arrowUp} alt="arrowUp" />
+              Вернуться в начало <Image src='/ArrowUp.png' width={30} height={30} alt="arrowUp" />
             </motion.a>
           </div>
         </div>
