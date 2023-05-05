@@ -1,0 +1,85 @@
+.swiper {
+  display: flex;
+  gap: 20px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 2%;
+}
+
+@media screen and (max-width: 888px) {
+  .swiper-wrapper {
+    gap: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-wrapper {
+    gap: 10%;
+  }
+ 
+}
+
+
+@media screen and (max-width: 656px) {
+  .swiper-wrapper {
+    gap: 15%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .swiper-wrapper {
+  gap: 20%;
+  }
+}
+
+
+@media screen and (max-width: 475px) {
+  .swiper-wrapper {
+  gap: 25%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .swiper-wrapper {
+  gap: 40%;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .swiper-wrapper {
+    gap: 65%;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #7b4ae2 !important;
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  border-radius: 16px;
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: rgba(123, 74, 226, 0.1);
+  transition: 0.4s;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    border-radius: 13px;
+    width: 40px !important;
+    height: 40px !important;
+  }
+}

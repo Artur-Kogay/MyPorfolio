@@ -1,0 +1,27 @@
+
+    .stack{
+      border: none;
+      text-align: center;
+      justify-content: center;
+      width: 45%;
+      background: rgba(123, 74, 226, 0.1);
+      border-radius: 8px;
+      white-space: nowrap;
+      height: 30px;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #7b4ae2;
+      cursor: pointer;
+    }
+    .stack:hover {
+      border: 1px solid rgba(123, 74, 226);
+      background-color: transparent;
+      transition: 1s;
+    }
+  

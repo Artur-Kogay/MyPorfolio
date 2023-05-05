@@ -1,0 +1,442 @@
+.container {
+  position: relative;
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+  top: 150px;
+  .content {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .podmobil {
+      display: none;
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      button {
+        margin-top: 90px;
+        width: 160px;
+        height: 45px;
+        background: rgba(123, 74, 226, 0.1);
+        border-radius: 16px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #7b4ae2;
+        border: rgba(123, 74, 226, 0.1);
+      }
+      button:hover {
+        background-color: transparent;
+        border: 1px solid rgba(123, 74, 226);
+        transition: 0.7s;
+      }
+      h1 {
+        font-family: "Raleway";
+        width: 50%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 52px;
+        color: #ffffff;
+      }
+      h2 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .sotcial_network {
+        display: flex;
+        gap: 16px;
+      }
+    }
+    .images {
+      background: rgba(123, 74, 226, 0.2);
+      border-radius: 50%;
+      width: 530.3px;
+      height: 530.3px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      img {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 50%;
+      }
+      .hero_stack {
+        position: absolute;
+        width: 71px;
+        height: 71px;
+        border-radius: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;  
+        img {
+          width: 35px;
+          height: 35px;
+        }
+      }
+      .hero_stack:nth-of-type(1) {
+        left: 0px;
+        top: 150px;
+      }
+      @media screen and (max-width: 1024px) {
+        .hero_stack:nth-of-type(1) {
+          top: 50px;
+        }
+      }
+      .hero_stack:nth-of-type(2) {
+        right: 0;
+        bottom: 200px;
+      }
+      .hero_stack:nth-of-type(3) {
+        left: 0;
+        bottom: 70px;
+      }
+      @media screen and (max-width: 1024px) {
+        .hero_stack:nth-of-type(3) {
+          bottom: 0;
+        }
+      }
+    }
+    .save_and_whatsapp {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      .btn_save {
+        text-decoration: none;
+        padding: 15px;
+        cursor: pointer;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        color: rgba(123, 74, 226, 0.5);
+        display: flex;
+        align-items: center;
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+      .btn_save:hover {
+        transition: 0.7s;
+        color: rgb(96, 26, 247);
+      }
+      .btn_whatsapp {
+        gap: 10px;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color: rgba(123, 74, 226, 0.5);
+        cursor: pointer;
+        border: 1px solid rgba(123, 74, 226, 0.5);
+        border-radius: 16px;
+      }
+      .btn_whatsapp:hover {
+        background-color: transparent;
+        border: 1px solid rgb(96, 26, 247);
+        transition: 0.7s;
+        color: rgb(96, 26, 247);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    .content {
+      .title {
+        button {
+          width: 150px;
+          height: 35px;
+          font-size: 18px;
+        }
+        h1 {
+          font-size: 50px;
+        }
+        h2 {
+          font-size: 18px;
+        }
+        .sotcial_network {
+          gap: 14px;
+        }
+      }
+      .images {
+        width: 470.3px;
+        height: 470.3px;
+
+        img {
+          width: 390.1px;
+          height: 558.21px;
+        }
+      }
+      .save_and_whatsapp {
+        .btn_save {
+          font-size: 14px;
+          img {
+            width: 14px;
+            height: 14px;
+          }
+        }
+        .btn_whatsapp {
+          gap: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .container {
+    .content {
+      .title {
+        button {
+          width: 140px;
+          height: 25px;
+          font-size: 16px;
+        }
+        h1 {
+          font-size: 45px;
+        }
+        h2 {
+          font-size: 15px;
+        }
+        .sotcial_network {
+          gap: 12px;
+        }
+      }
+      .images {
+        width: 420.3px;
+        height: 420.3px;
+
+        img {
+          width: 370.1px;
+          height: 538.21px;
+        }
+      }
+      .save_and_whatsapp {
+        .btn_save {
+          font-size: 12px;
+          img {
+            width: 12px;
+            height: 12px;
+          }
+        }
+        .btn_whatsapp {
+          gap: 5px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .container {
+    .content {
+      .title {
+        button {
+          width: 130px;
+          height: 30px;
+          font-size: 16px;
+        }
+        h1 {
+          font-size: 45px;
+        }
+        h2 {
+          font-size: 15px;
+        }
+        .sotcial_network {
+          gap: 10px;
+        }
+      }
+      .images {
+        width: 390.3px;
+        height: 390.3px;
+
+        img {
+          width: 300.1px;
+          height: 460.21px;
+        }
+      }
+      .save_and_whatsapp {
+        .btn_save {
+          font-size: 14px;
+          img {
+            width: 12px;
+            height: 12px;
+          }
+        }
+        .btn_whatsapp {
+          gap: 5px;
+          font-size: 12px;
+          width: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    .content {
+      .title {
+        button {
+          width: 115px;
+          height: 25px;
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 40px;
+        }
+        h2 {
+          font-size: 14px;
+        }
+        .sotcial_network {
+          gap: 10px;
+        }
+      }
+      .images {
+        width: 330.3px;
+        height: 330.3px;
+
+        img {
+          width: 260.1px;
+          height: 400.21px;
+        }
+      }
+      .save_and_whatsapp {
+        .btn_save {
+          font-size: 13px;
+          img {
+            width: 14px;
+            height: 14px;
+          }
+        }
+        .btn_whatsapp {
+          gap: 5px;
+
+          font-size: 10px;
+          width: 130px;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .container {
+    .content {
+      .images {
+        width: 300.3px;
+        height: 300.3px;
+
+        img {
+          width: 220.1px;
+          height: 350.21px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 870px) {
+  .container {
+    .content {
+      .images {
+        width: 270.3px;
+        height: 270.3px;
+
+        img {
+          width: 190.1px;
+          height: 320.21px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 25px;
+    top: 0;
+    height: 100%;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      .podmobil {
+        display: flex;
+        gap: 10px;
+      }
+      .title {
+        order: 2;
+        button {
+          width: 122px;
+          height: 32px;
+        }
+        h1 {
+          width: 90%;
+        }
+        h2 {
+          width: 306.68px;
+          height: 37px;
+        }
+        .sotcial_network {
+          display: none;
+        }
+      }
+      .images {
+        order: 1;
+        width: 262.12px;
+        height: 262.12px;
+        background: rgba(123, 74, 226, 0.2);
+        img {
+          width: 220.93px;
+          height: 307.28px;
+        }
+      }
+      .save_and_whatsapp {
+        order: 3;
+        flex-direction: row;
+        margin-right: 90px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    .content {
+      .save_and_whatsapp {
+        margin-right: 35px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    .content {
+      .title {
+        width: 90%;
+      }
+      .save_and_whatsapp {
+        margin-right: 35px;
+      }
+    }
+  }
+}

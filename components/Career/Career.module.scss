@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  .content {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding: 50px;
+    .first_block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      button {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        background: rgba(123, 74, 226, 0.1);
+        border-radius: 16px;
+        color: #7b4ae2;
+        width: 130px;
+        height: 45px;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        transition: 0.7s;
+        background-color: transparent;
+        border: 1px solid rgb(96, 26, 247);
+        color: rgb(96, 26, 247);
+      }
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        color: #ffffff;
+      }
+    }
+    .second_block {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      h1 {
+        display: flex;
+        flex-direction: column;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        text-align: center;
+        color: #ffffff;
+
+        b {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+      h2 {
+        display: flex;
+        flex-direction: column;
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        text-align: center;
+        color: #ffffff;
+
+        b {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    .content {
+      .first_block {
+        h1 {
+          font-size: 24px;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

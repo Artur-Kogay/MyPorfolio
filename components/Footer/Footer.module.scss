@@ -1,0 +1,219 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+      button {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        background: rgba(123, 74, 226, 0.1);
+        border-radius: 16px;
+        color: #7b4ae2;
+        width: 138px;
+        height: 45px;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        transition: 0.7s;
+        background-color: transparent;
+        border: 1px solid rgb(96, 26, 247);
+        color: rgb(96, 26, 247);
+      }
+
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 800;
+        font-size: 48px;
+        color: #ffffff;
+      }
+      .footer_whats {
+        display: flex;
+        gap: 50px;
+        .btn_whatsapp {
+          gap: 10px;
+          width: 100%;
+          white-space: nowrap;
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          padding: 10px;
+          display: flex;
+          align-items: center;
+          background-color: transparent;
+          color: rgba(123, 74, 226, 0.5);
+          cursor: pointer;
+          border: 1px solid rgba(123, 74, 226, 0.5);
+          border-radius: 16px;
+        }
+        .btn_whatsapp:hover {
+          background-color: transparent;
+          border: 1px solid rgb(96, 26, 247);
+          transition: 0.7s;
+          color: rgb(96, 26, 247);
+        }
+        .email {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          align-items: center;
+
+          img {
+            width: 40px;
+            height: 40px;
+          }
+          h2 {
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            color: #7b4ae2;
+          }
+          a {
+            text-decoration: none;
+            font-family: "Raleway";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.5);
+          }
+        }
+      }
+      .footer_l {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgba(123, 74, 226, 0.5);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .the_end {
+        width: 100%;
+        height: 50px;
+        background: rgba(123, 74, 226, 0.1);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .global {
+    .container {
+      .content {
+        align-items: flex-start;
+
+        button {
+          font-size: 17px;
+
+          width: 130px;
+          height: 40px;
+        }
+        h1 {
+          font-size: 38px;
+        }
+        .footer_whats {
+        align-items: flex-start;
+
+          display: flex;
+          flex-direction: column;
+          .btn_whatsapp {
+            justify-content: center;
+            width: 80%;
+            gap: 5px;
+            white-space: nowrap;
+            font-size: 14px;
+            padding: 10px;
+          }
+          .email {
+        align-items: flex-start;
+
+            img {
+              width: 30px;
+              height: 30px;
+            }
+            h2 {
+              font-size: 18px;
+            }
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+        .footer_l {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+          font-size: 18px;
+
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .global {
+    .container {
+      
+      .content {
+        button {
+          font-size: 14px;
+          width: 120px;
+          height: 30px;
+        }
+        h1 {
+          font-size: 25px;
+        }
+        .footer_whats {
+          .btn_whatsapp {
+            justify-content: center;
+            width: 80%;
+            white-space: nowrap;
+            font-size: 13px;
+          }
+          .email {
+            img {
+              width: 25px;
+              height: 25px;
+            }
+            h2 {
+              font-size: 14px;
+            }
+            a {
+              font-size: 14px;
+            }
+          }
+        }
+        .footer_l {
+          
+          img {
+            width: 20px;
+            height: 20px;
+          }
+          font-size: 14px;
+
+          gap: 10px;
+        }
+      }
+    }
+  }
+}

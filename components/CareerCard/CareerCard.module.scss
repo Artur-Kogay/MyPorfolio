@@ -1,0 +1,466 @@
+.global {
+  display: flex;
+  gap: 200px;
+  .first_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    h6 {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      color: #ffffff;
+
+      b {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+    .third_content {
+      border: 1px solid rgba(123, 74, 226, 0.5);
+      border-radius: 16px;
+      padding: 30px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      p {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .dates {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          color: #7b4ae2;
+        }
+        h3 {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          color: #7b4ae2;
+        }
+      }
+    }
+  }
+  .second_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    h6 {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 32px;
+      color: #ffffff;
+
+      b {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+    .third_content {
+      border: 1px solid rgba(123, 74, 226, 0.5);
+      border-radius: 16px;
+      padding: 30px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      h1 {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      p {
+        font-family: "Raleway";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.5);
+      }
+      .dates {
+        display: flex;
+        justify-content: space-between;
+        h2 {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          color: #7b4ae2;
+        }
+        h3 {
+          font-family: "Raleway";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          color: #7b4ae2;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .global {
+    display: flex;
+    justify-content: center;
+
+    .first_cards {
+      align-items: center;
+      h6 {
+        font-size: 24px;
+      }
+      .third_content {
+        width: 110%;
+        h1 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .dates {
+          h2 {
+            font-size: 14px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .second_cards {
+      align-items: center;
+      h6 {
+        font-size: 24px;
+      }
+      .third_content {
+        width: 110%;
+        h1 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .dates {
+          h2 {
+            font-size: 14px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .global {
+    display: flex;
+    justify-content: center;
+
+    .first_cards {
+      align-items: center;
+      h6 {
+        font-size: 24px;
+      }
+      .third_content {
+        width: 130%;
+        h1 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .dates {
+          h2 {
+            font-size: 14px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .second_cards {
+      align-items: center;
+      h6 {
+        font-size: 24px;
+      }
+      .third_content {
+        width: 130%;
+        h1 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .dates {
+          h2 {
+            font-size: 14px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .global {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    .first_cards {
+      align-items: center;
+      h6 {
+        font-size: 24px;
+      }
+      .third_content {
+        width: 140%;
+        h1 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .dates {
+          h2 {
+            font-size: 14px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .second_cards {
+      align-items: center;
+      h6 {
+        font-size: 24px;
+      }
+      .third_content {
+        width: 140%;
+        h1 {
+          font-size: 17px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .dates {
+          h2 {
+            font-size: 14px;
+          }
+          h3 {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 972px) {
+  .global {
+    .first_cards {
+      .third_content {
+        width: 150%;
+      }
+    }
+    .second_cards {
+      .third_content {
+        width: 150%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 888px) {
+  .global {
+    .first_cards {
+      h6 {
+        white-space: nowrap;
+      }
+      .third_content {
+        width: 150%;
+      }
+    }
+    .second_cards {
+      h6 {
+        white-space: nowrap;
+      }
+      .third_content {
+        width: 150%;
+        h1 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .global {
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    .first_cards {
+      .third_content {
+        width: 100%;
+      }
+    }
+    .second_cards {
+      .third_content {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .global {
+    display: flex;
+    flex-direction: column;
+    .first_cards {
+      .third_content {
+        width: 150%;
+      }
+    }
+    .second_cards {
+      .third_content {
+        width: 150%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .global {
+    display: flex;
+    flex-direction: column;
+    .first_cards {
+      .third_content {
+        width: 150%;
+        h1 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .dates {
+          h2 {
+            font-size: 12px;
+          }
+          h3 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .second_cards {
+      .third_content {
+        width: 150%;
+        h1 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 12px;
+        }
+        .dates {
+          h2 {
+            font-size: 12px;
+          }
+          h3 {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .global {
+    display: flex;
+    flex-direction: column;
+    .first_cards {
+      .third_content {
+        width: 200%;
+        h1 {
+          white-space: nowrap;
+          font-size: 12px;
+        }
+        p {
+          font-size: 11px;
+        }
+        .dates {
+          gap: 5px;
+          h2 {
+            white-space: nowrap;
+            font-size: 11px;
+          }
+          h3 {
+            white-space: nowrap;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+    .second_cards {
+      .third_content {
+        width: 200%;
+        h1 {
+          font-size: 12px;
+        }
+        p {
+          font-size: 11px;
+        }
+        .dates {
+          gap: 5px;
+          h2 {
+            white-space: nowrap;
+            font-size: 11px;
+          }
+          h3 {
+            white-space: nowrap;
+            font-size: 11px;
+          }
+        }
+      }
+    }
+  }
+}
