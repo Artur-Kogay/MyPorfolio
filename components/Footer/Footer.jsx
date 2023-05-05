@@ -51,7 +51,7 @@ const Footer = () => {
                 visible: { scale: 1 },
               }}
             >
-              Thank you!{" "}
+              Спасибо за просмотр страницы!{" "}
             </motion.h1>
 
             <div className={s.footer_whats}>
