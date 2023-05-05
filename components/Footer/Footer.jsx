@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import s from "./Footer.module.scss";
 import Footer_end from "../Footer_end/Footer_end";
 import { motion, useAnimationFrame } from "framer-motion";
+import arrowUp from '../../public/ArrowUp.png'
 
 const Footer = () => {
   const ref = useRef(null);
@@ -96,7 +97,7 @@ const Footer = () => {
               className={s.footer_l}
               href="#"
             >
-              Вернуться в начало <img src="/arrowUp.png" alt="arrowUp" />
+              Вернуться в начало <img src={arrowUp} alt="arrowUp" />
             </motion.a>
           </div>
         </div>

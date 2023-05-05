@@ -162,7 +162,7 @@ export const tech = [
     img: "/Figma.png",
   },
   {
-    img: "/Github.png",
+    img: "/github.png",
   }
 ];
 
